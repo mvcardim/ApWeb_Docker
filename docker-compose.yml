@@ -1,9 +1,0 @@
-version: '2.2'
-services:
-  apache:
-    image: httpd:latest
-    container_name: my-apache-app
-    ports:
-    - '80:80'
-    volumes:
-    - ./ApWeb_Docker:/usr/local/apache2/htdocs
